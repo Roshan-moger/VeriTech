@@ -26,11 +26,11 @@ registerForm.addEventListener("submit", (e)=>{
       }
   })
   .then(data => {
-      location.href = `/login.html?existingEmail=${payload.email}`;
+      location.href = `/veritech task-4/login.html?existingEmail=${payload.email}`;
   })
   .catch(error => {
       console.log("Error during registration:", error);
-      location.href = `/login.html?existingEmail=${payload.email}&registered=true`;
+      location.href = `/veritech task-4/login.html?existingEmail=${payload.email}&registered=true`;
   });
 
 })
