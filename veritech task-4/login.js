@@ -41,6 +41,6 @@ loginForm.addEventListener('submit', e => {
       location.href = '/index.html'
     }) .catch(error => {
       console.log("Error during registration:", error);
-      location.href = `/index.html`
+      location.href = `veritech task-4/index.html`
   });
 })
