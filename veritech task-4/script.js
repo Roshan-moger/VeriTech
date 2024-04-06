@@ -1,4 +1,4 @@
-var firstName = 'Nazariy'
+var firstName = 'Roshan'
 let apiUrl = 'http://localhost:3000'
 if (location.href.indexOf('netlify') != -1) {
   apiUrl = 'https://netflix-cp.herokuapp.com'
@@ -36,32 +36,6 @@ function getWishList() {
     })
 }
 
-function letVarExample(firstName = 'Nazariy') {
-  // Melissas Address
-  const address = {
-    street: '9879 Test rd.',
-    city: 'Brooklyn',
-    state: 'NY',
-  }
-
-  // address.state = "MI";
-
-  // let state = address.state;
-  // state = "MI"
-  // console.log(address);
-
-  // let address2 = address;
-  // address2.state = "MI";
-
-  // let address2 = {
-  //     ...address,
-  //     apartment: "MI"
-  // }
-
-  // let { street, city, state } = address;
-
-  // console.log(street + city + state);
-}
 
 async function getMovieTrailer(id) {
   var url = `https://api.themoviedb.org/3/movie/${id}/videos?api_key=19f84e11932abbc79e6d83f82d6d1045&language=en-US`
