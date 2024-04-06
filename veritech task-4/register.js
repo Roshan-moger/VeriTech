@@ -30,7 +30,7 @@ registerForm.addEventListener("submit", (e)=>{
   })
   .catch(error => {
       console.log("Error during registration:", error);
-      location.href = `/veritech task-4/login.html?existingEmail=${payload.email}&registered=true`;
+      location.href = `/VeriTech/veritech task-4/login.html?existingEmail=${payload.email}&registered=true`;
   });
 
 })
