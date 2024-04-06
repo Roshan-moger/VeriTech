@@ -1,4 +1,4 @@
-var firstName = 'Nazariy'
+
 let apiUrl = 'http://localhost:3000'
 if (location.href.indexOf('netlify') != -1) {
   apiUrl = 'https://netflix-cp.herokuapp.com'
